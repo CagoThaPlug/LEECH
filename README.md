@@ -10,6 +10,7 @@ Welcome to the Comprehensive Guide to Learning Java and Writing RuneLite Plugins
   - [1.3 Basics of Java Syntax](#13-basics-of-java-syntax)
   - [1.4 Object-Oriented Programming (OOP)](#14-object-oriented-programming-oop)
   - [1.5 Exception Handling](#15-exception-handling)
+  - [1.6 Multi Threading](#16-multi-threading)
 
 - [Section 2: RuneLite Plugin Development](#section-2-runelite-plugin-development)
   - [2.1 Introduction to RuneLite](#21-introduction-to-runelite)
@@ -355,10 +356,7 @@ double updatedBalance = account.getBalance(); // 1300.0
 
 ```
 
-This is just a brief overview of the key concepts of object-oriented programming in Java. Understanding these concepts will enable you to structure your programs effectively and create reusable and maintainable code.
-
 ---
-
 
 ### 1.5 Exception Handling
 
@@ -449,8 +447,9 @@ try {
     System.out.println("An error occurred: " + e.getMessage());
 }
 ```
+---
+### 1.6 Multi Threading
 
-This is just a brief overview of exception handling in Java. Understanding these concepts will enable you to handle errors and exceptions effectively and ensure the robustness of your Java programs.
 
 ---
 
