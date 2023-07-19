@@ -1290,14 +1290,14 @@ int timesFailed = 0;
 ### Game Interactions
 The `onGameTick(GameTick event)` method handles various game interactions, such as item picking, NPC interactions, and bank transactions. The usage of WidgetPackets and MousePackets suggests operations related to UI and mouse movements.
 
-Please note that this plugin appears to be designed for a specific game, as it references game-specific items like `Secondary.GIANT_SEAWEED` and `SuperGlassMakerPluginConfig`. To use this plugin with a different game, you may need to replace these items with game-specific equivalents.
-
 ### Logging
 Throughout the plugin, there are several logging statements used to trace operations and aid in debugging in case of errors or exceptions.
 
 Note: The exact functionality of this plugin may vary depending on the game it is designed for. This documentation provides an outline based on common patterns found in game plugins.
 
 For the complete code, please refer to the following link: [SuperGlassMakerPlugin](https://github.com/Ethan-Vann/EthanVannPlugins/tree/master/src/main/java/com/example/superglass)
+
+### In Progress
 
 ---
 
