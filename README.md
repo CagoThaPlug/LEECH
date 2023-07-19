@@ -1432,6 +1432,26 @@ timeout = 3;
 
 ---
 
+# Credits
+#### [EthanVann](https://github.com/Ethan-Vann)
+
+#### [Kotori](https://github.com/OreoCupcakes)
+
+#### SkylerMiner
+#### Bilbo
+#### [Cago](https://github.com/CagoThaPlug)
+
+---
+
+# TODO:
+
+- [ ] Add more examples
+- [ ] Add more references
+- [ ] Add more resources
+- [ ] Add more credits
+
+---
+
 ## Conclusion
 
 Congratulations on completing the Comprehensive Guide to Learning Java and Writing RuneLite Plugins! This guide has equipped you with a solid foundation in Java programming and the necessary skills to develop your own RuneLite plugins. Remember to keep exploring, practicing, and building upon what you've learned to further enhance your programming abilities.
