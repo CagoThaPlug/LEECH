@@ -12,15 +12,15 @@ Welcome to the Comprehensive Guide to Learning Java and Writing RuneLite Plugins
   - [1.5 Exception Handling](#15-exception-handling)
   - [1.6 Multi Threading](#16-multi-threading)
 
-- [Section 2: RuneLite Plugin Development](#section-2-runelite-plugin-development)
-  - [2.1 Introduction to RuneLite](#21-introduction-to-runelite)
+- [Section 2: RuneLite Plugin Development](#section-2-RuneLite-plugin-development)
+  - [2.1 Introduction to RuneLite](#21-introduction-to-RuneLite)
   - [2.2 Setting up the Development Environment](#22-setting-up-the-development-environment)
-  - [2.3 Creating Your First RuneLite Plugin](#23-creating-your-first-runelite-plugin)
+  - [2.3 Creating Your First RuneLite Plugin](#23-creating-your-first-RuneLite-plugin)
   - [2.4 Interacting with the RuneScape Game Client](#24-interacting-with-the-runescape-game-client)
   - [2.5 Advanced Plugin Features](#25-advanced-plugin-features)
 
 - [Section 3: External Plugin Informative](#section-3-external-plugin-informative)
-  - [3.1 External Plugin Informative](#31-external-plugin-informative)
+  - [3.1 External Plugin Warning](#31-external-plugin-warning)
   - [3.2 EthanVann Plugin API](#32-ethanvann-plugin-api)
   - [3.3 Kotori Plugin Loader](#33-kotori-plugin-loader)
   - [3.4 Game Pack Reflection](#34-game-pack-reflection)
@@ -90,19 +90,19 @@ The Kotlin DSL (KTS) provides a more concise and type-safe syntax for build.grad
 ```kotlin
 // build.gradle.kts (Kotlin DSL)
 plugins {
-    kotlin("jvm") version "1.5.20"
+  kotlin("jvm") version "1.5.20"
 }
 
 group = "com.example"
 version = "1.0-SNAPSHOT"
 
 repositories {
-    mavenCentral()
+  mavenCentral()
 }
 
 dependencies {
-    implementation(kotlin("stdlib-jdk8"))
-    testImplementation(kotlin("test"))
+  implementation(kotlin("stdlib-jdk8"))
+  testImplementation(kotlin("test"))
 }
 ```
 
@@ -113,19 +113,19 @@ The Groovy syntax is the traditional syntax for build.gradle files and is still 
 ```groovy
 // build.gradle (Groovy DSL)
 plugins {
-    id 'java'
+  id 'java'
 }
 
 group 'com.example'
 version '1.0-SNAPSHOT'
 
 repositories {
-    mavenCentral()
+  mavenCentral()
 }
 
 dependencies {
-    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
-    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+  implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
+  testImplementation 'org.jetbrains.kotlin:kotlin-test'
 }
 ```
 
@@ -162,9 +162,9 @@ Here's an example of using different data types:
 
 ```java
 int age = 25;
-double height = 1.75;
-boolean isStudent = true;
-String name = "John Doe";
+        double height = 1.75;
+        boolean isStudent = true;
+        String name = "John Doe";
 ```
 
 #### Operators
@@ -177,13 +177,13 @@ Assignment operators: =, +=, -=, *=, /=, %= (compound assignment)
 
 ```java
 int a = 5;
-int b = 10;
-int sum = a + b; // sum = 15
+        int b = 10;
+        int sum = a + b; // sum = 15
 
-boolean isTrue = (a > b) && (a != 0); // isTrue = false
+        boolean isTrue = (a > b) && (a != 0); // isTrue = false
 
-int counter = 0;
-counter += 1; // counter = 1
+        int counter = 0;
+        counter += 1; // counter = 1
 ```
 
 #### Conditional Statements
@@ -192,11 +192,11 @@ Conditional statements allow your program to make decisions and execute differen
 ```java
 int age = 18;
 
-if (age >= 18) {
-    System.out.println("You are an adult.");
-} else {
-    System.out.println("You are a minor.");
-}
+        if (age >= 18) {
+        System.out.println("You are an adult.");
+        } else {
+        System.out.println("You are a minor.");
+        }
 ```
 
 #### Looping Constructs
@@ -204,8 +204,8 @@ Looping constructs allow you to repeat a block of code multiple times. The for l
 
 ```java
 for (int i = 0; i < 5; i++) {
-    System.out.println("Iteration " + i);
-}
+        System.out.println("Iteration " + i);
+        }
 ```
 
 
@@ -221,24 +221,24 @@ In Java, a class is a blueprint or template that defines the properties (attribu
 
 ```java
 public class Person {
-    // Attributes
-    private String name;
-    private int age;
+  // Attributes
+  private String name;
+  private int age;
 
-    // Constructor
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+  // Constructor
+  public Person(String name, int age) {
+    this.name = name;
+    this.age = age;
+  }
 
-    // Method
-    public void sayHello() {
-        System.out.println("Hello, my name is " + name + " and I'm " + age + " years old.");
-    }
+  // Method
+  public void sayHello() {
+    System.out.println("Hello, my name is " + name + " and I'm " + age + " years old.");
+  }
 }
 
-// Usage
-Person person = new Person("John Doe", 25);
+  // Usage
+  Person person = new Person("John Doe", 25);
 person.sayHello();
 ```
 
@@ -248,23 +248,23 @@ Methods are the behaviors of a class. They are used to perform specific actions 
 
 ```java
 public class Calculator {
-    public int add(int a, int b) {
-        return a + b;
-    }
+  public int add(int a, int b) {
+    return a + b;
+  }
 
-    public double divide(double numerator, double denominator) {
-        if (denominator != 0) {
-            return numerator / denominator;
-        } else {
-            throw new IllegalArgumentException("Cannot divide by zero.");
-        }
+  public double divide(double numerator, double denominator) {
+    if (denominator != 0) {
+      return numerator / denominator;
+    } else {
+      throw new IllegalArgumentException("Cannot divide by zero.");
     }
+  }
 }
 
-// Usage
-Calculator calculator = new Calculator();
-int sum = calculator.add(5, 3);
-double result = calculator.divide(10.0, 2.0);
+  // Usage
+  Calculator calculator = new Calculator();
+  int sum = calculator.add(5, 3);
+  double result = calculator.divide(10.0, 2.0);
 
 ```
 
@@ -283,34 +283,34 @@ Inheritance is a mechanism in OOP that allows one class to inherit the propertie
 
 ```java
 public class Vehicle {
-    protected String brand;
+  protected String brand;
 
-    public Vehicle(String brand) {
-        this.brand = brand;
-    }
+  public Vehicle(String brand) {
+    this.brand = brand;
+  }
 
-    public void start() {
-        System.out.println("Starting the " + brand + " vehicle.");
-    }
+  public void start() {
+    System.out.println("Starting the " + brand + " vehicle.");
+  }
 }
 
 public class Car extends Vehicle {
-    private int numberOfDoors;
+  private int numberOfDoors;
 
-    public Car(String brand, int numberOfDoors) {
-        super(brand);
-        this.numberOfDoors = numberOfDoors;
-    }
+  public Car(String brand, int numberOfDoors) {
+    super(brand);
+    this.numberOfDoors = numberOfDoors;
+  }
 
-    public void drive() {
-        System.out.println("Driving the " + brand + " car with " + numberOfDoors + " doors.");
-    }
+  public void drive() {
+    System.out.println("Driving the " + brand + " car with " + numberOfDoors + " doors.");
+  }
 }
 
-// Usage
-Car car = new Car("Toyota", 4);
+  // Usage
+  Car car = new Car("Toyota", 4);
 car.start();
-car.drive();
+        car.drive();
 
 ```
 
@@ -320,30 +320,30 @@ Polymorphism is the ability of objects of different classes to be treated as obj
 
 ```java
 public class Shape {
-    public void draw() {
-        System.out.println("Drawing a shape.");
-    }
+  public void draw() {
+    System.out.println("Drawing a shape.");
+  }
 }
 
 public class Circle extends Shape {
-    @Override
-    public void draw() {
-        System.out.println("Drawing a circle.");
-    }
+  @Override
+  public void draw() {
+    System.out.println("Drawing a circle.");
+  }
 }
 
 public class Square extends Shape {
-    @Override
-    public void draw() {
-        System.out.println("Drawing a square.");
-    }
+  @Override
+  public void draw() {
+    System.out.println("Drawing a square.");
+  }
 }
 
-// Usage
-Shape shape1 = new Circle();
-Shape shape2 = new Square();
+  // Usage
+  Shape shape1 = new Circle();
+  Shape shape2 = new Square();
 shape1.draw(); // Output: Drawing a circle.
-shape2.draw(); // Output: Drawing a square.
+        shape2.draw(); // Output: Drawing a square.
 
 ```
 
@@ -353,35 +353,35 @@ Encapsulation is the principle of bundling data (attributes) and methods (behavi
 
 ```java
 public class BankAccount {
-    private double balance;
+  private double balance;
 
-    public BankAccount(double initialBalance) {
-        this.balance = initialBalance;
-    }
+  public BankAccount(double initialBalance) {
+    this.balance = initialBalance;
+  }
 
-    public double getBalance() {
-        return balance;
-    }
+  public double getBalance() {
+    return balance;
+  }
 
-    public void deposit(double amount) {
-        balance += amount;
-    }
+  public void deposit(double amount) {
+    balance += amount;
+  }
 
-    public void withdraw(double amount) {
-        if (amount <= balance) {
-            balance -= amount;
-        } else {
-            System.out.println("Insufficient funds.");
-        }
+  public void withdraw(double amount) {
+    if (amount <= balance) {
+      balance -= amount;
+    } else {
+      System.out.println("Insufficient funds.");
     }
+  }
 }
 
-// Usage
-BankAccount account = new BankAccount(1000.0);
-double currentBalance = account.getBalance(); // 1000.0
+  // Usage
+  BankAccount account = new BankAccount(1000.0);
+  double currentBalance = account.getBalance(); // 1000.0
 account.deposit(500.0);
-account.withdraw(200.0);
-double updatedBalance = account.getBalance(); // 1300.0
+        account.withdraw(200.0);
+        double updatedBalance = account.getBalance(); // 1300.0
 
 ```
 
@@ -397,11 +397,11 @@ In Java, you can handle exceptions using try-catch blocks. The code that may thr
 
 ```java
 try {
-    int result = divide(10, 0);
-    System.out.println("Result: " + result);
-} catch (ArithmeticException e) {
-    System.out.println("An error occurred: " + e.getMessage());
-}
+        int result = divide(10, 0);
+        System.out.println("Result: " + result);
+        } catch (ArithmeticException e) {
+        System.out.println("An error occurred: " + e.getMessage());
+        }
 ```
 
 #### Handling Multiple Exceptions
@@ -410,12 +410,12 @@ You can handle multiple exceptions by using multiple catch blocks. Each catch bl
 
 ```java
 try {
-    // Code that may throw exceptions
-} catch (IOException e) {
-    // Handle IOException
-} catch (SQLException e) {
-    // Handle SQLException
-}
+        // Code that may throw exceptions
+        } catch (IOException e) {
+        // Handle IOException
+        } catch (SQLException e) {
+        // Handle SQLException
+        }
 ```
 
 #### Finally Block
@@ -424,12 +424,12 @@ The finally block is used to execute code that should always be run, regardless 
 
 ```java
 try {
-    // Code that may throw exceptions
-} catch (Exception e) {
-    // Handle exceptions
-} finally {
-    // Code to be executed regardless of exceptions
-}
+        // Code that may throw exceptions
+        } catch (Exception e) {
+        // Handle exceptions
+        } finally {
+        // Code to be executed regardless of exceptions
+        }
 ```
 
 #### Custom Exceptions
@@ -438,18 +438,18 @@ Java allows you to create your own custom exceptions by extending the `Exception
 
 ```java
 public class CustomException extends Exception {
-    public CustomException(String message) {
-        super(message);
-    }
+  public CustomException(String message) {
+    super(message);
+  }
 }
 
 // Usage
 try {
-    // Code that may throw CustomException
-    throw new CustomException("Custom exception occurred");
-} catch (CustomException e) {
-    System.out.println("An error occurred: " + e.getMessage());
-}
+        // Code that may throw CustomException
+        throw new CustomException("Custom exception occurred");
+        } catch (CustomException e) {
+        System.out.println("An error occurred: " + e.getMessage());
+        }
 ```
 
 #### Exception Propagation
@@ -458,24 +458,26 @@ When an exception is thrown, it can be caught and handled by a method higher up 
 
 ```java
 public void method1() throws IOException {
-    method2();
-}
+        method2();
+        }
 
 public void method2() throws IOException {
-    method3();
-}
+        method3();
+        }
 
 public void method3() throws IOException {
-    throw new IOException("Exception occurred");
-}
+        throw new IOException("Exception occurred");
+        }
 
 // Usage
-try {
-    method1();
-} catch (IOException e) {
-    System.out.println("An error occurred: " + e.getMessage());
-}
+        try {
+        method1();
+        } catch (IOException e) {
+        System.out.println("An error occurred: " + e.getMessage());
+        }
 ```
+
+---
 
 ### 1.6 Multi Threading
 
@@ -491,10 +493,10 @@ Extending the `Thread` class allows you to define a new class that is a subclass
 
 ```java
 public class MyThread extends Thread {
-    @Override
-    public void run() {
-        System.out.println("MyThread running");
-    }
+  @Override
+  public void run() {
+    System.out.println("MyThread running");
+  }
 }
 ```
 
@@ -504,10 +506,10 @@ Implementing the `Runnable` interface requires you to implement the `run()` meth
 
 ```java
 public class MyRunnable implements Runnable {
-    @Override
-    public void run() {
-        System.out.println("MyRunnable running");
-    }
+  @Override
+  public void run() {
+    System.out.println("MyRunnable running");
+  }
 }
 ```
 
@@ -517,10 +519,10 @@ To start a thread, you need to create an instance of the thread class and call t
 
 ```java
 Thread thread1 = new MyThread();
-thread1.start(); // Output: MyThread running
-        
-Thread thread2 = new Thread(new MyRunnable());
-thread2.start(); // Output: MyRunnable running
+        thread1.start(); // Output: MyThread running
+
+        Thread thread2 = new Thread(new MyRunnable());
+        thread2.start(); // Output: MyRunnable running
 ```
 
 #### Thread States
@@ -544,11 +546,11 @@ The `synchronized` keyword can be applied to methods or blocks of code to ensure
 
 ```java
 public class Counter {
-    private int count;
+  private int count;
 
-    public synchronized void increment() {
-        count++;
-    }
+  public synchronized void increment() {
+    count++;
+  }
 }
 ```
 
@@ -561,17 +563,17 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Counter {
-    private int count;
-    private Lock lock = new ReentrantLock();
+  private int count;
+  private Lock lock = new ReentrantLock();
 
-    public void increment() {
-        lock.lock();
-        try {
-            count++;
-        } finally {
-            lock.unlock();
-        }
+  public void increment() {
+    lock.lock();
+    try {
+      count++;
+    } finally {
+      lock.unlock();
     }
+  }
 }
 ```
 
@@ -640,9 +642,9 @@ Writing RuneLite plugins offers several benefits for both developers and players
 
 To learn more about RuneLite and get started with plugin development, check out the following resources:
 
-- [RuneLite Official Website](https://runelite.net/)
-- [RuneLite GitHub Repository](https://github.com/runelite/runelite)
-- [RuneLite Example Plugin Repository](https://github.com/runelite/example-plugin)
+- [RuneLite Official Website](https://RuneLite.net/)
+- [RuneLite GitHub Repository](https://github.com/RuneLite/RuneLite)
+- [RuneLite Example Plugin Repository](https://github.com/RuneLite/example-plugin)
 
 The RuneLite Example Plugin repository provides a helpful starting point for developing your own plugins. It offers code examples and a guide to help you understand the plugin development process.
 
@@ -658,7 +660,7 @@ To develop RuneLite plugins, you need to set up your development environment acc
 
 To get started with RuneLite plugin development, follow these steps to download and install RuneLite:
 
-1. Visit the [RuneLite website](https://runelite.net/) and navigate to the downloads page.
+1. Visit the [RuneLite website](https://RuneLite.net/) and navigate to the downloads page.
 2. Download the RuneLite installer suitable for your operating system.
 3. Run the installer and follow the installation instructions.
 
@@ -674,7 +676,7 @@ Once you have RuneLite installed, you can configure your Integrated Development 
 To start developing RuneLite plugins, you'll need to obtain the RuneLite project from version control. Follow these steps to get the project:
 
 1. Open IntelliJ IDEA and select "Check out from Version Control" on the welcome screen.
-2. Choose the Git option and enter the RuneLite repository URL: `https://github.com/runelite/runelite.git`.
+2. Choose the Git option and enter the RuneLite repository URL: `https://github.com/RuneLite/RuneLite.git`.
 3. Specify the desired directory to clone the project into.
 4. Click "Clone" to initiate the cloning process.
 
@@ -689,13 +691,13 @@ To configure these arguments in IntelliJ IDEA, go to "Run" > "Edit Configuration
 
 #### Bypassing the Jagex Launcher for Development
 
-During RuneLite plugin development, you may want to bypass the Jagex Launcher to directly launch the RuneLite client. The RuneLite Wiki provides detailed instructions on how to bypass the Jagex Launcher for development purposes. Refer to the [Using Jagex Accounts](https://github.com/runelite/runelite/wiki/Using-Jagex-Accounts) guide for more information.
+During RuneLite plugin development, you may want to bypass the Jagex Launcher to directly launch the RuneLite client. The RuneLite Wiki provides detailed instructions on how to bypass the Jagex Launcher for development purposes. Refer to the [Using Jagex Accounts](https://github.com/RuneLite/RuneLite/wiki/Using-Jagex-Accounts) guide for more information.
 
 Please note that RuneLite plugin development requires knowledge of Java programming and familiarity with the RuneLite plugin system. It is recommended to have a basic understanding of Java and IntelliJ IDEA before diving into plugin development.
 
 ---
 
-### 2.3 Creating Your First RuneLite Plugin
+## 2.3 Creating Your First RuneLite Plugin
 
 In this section, you'll learn how to create a basic RuneLite plugin step by step. By the end, you'll have a solid foundation to build more complex plugins for RuneLite.
 
@@ -708,10 +710,10 @@ First, create a new Java class for your plugin. You can put it in a package like
 ```java
 package com.plugins;
 
-import net.runelite.client.plugins.Plugin;
+import net.RuneLite.client.plugins.Plugin;
 
 public class ExamplePlugin extends Plugin {
-    // Plugin code goes here
+  // Plugin code goes here
 }
 ```
 
@@ -722,7 +724,7 @@ If your plugin requires any additional plugins or external libraries, you can sp
 ```java
 @PluginDependency(OtherPlugin.class)
 public class ExamplePlugin extends Plugin {
-    // Plugin code goes here
+  // Plugin code goes here
 }
 ```
 
@@ -732,22 +734,22 @@ To access RuneLite services and configurations, you can use dependency injection
 
 ```java
 import javax.inject.Inject;
-import net.runelite.client.Client;
-import net.runelite.client.input.KeyManager;
-import net.runelite.client.plugins.Plugin;
-import net.runelite.client.config.ConfigManager;
+import net.RuneLite.client.Client;
+import net.RuneLite.client.input.KeyManager;
+import net.RuneLite.client.plugins.Plugin;
+import net.RuneLite.client.config.ConfigManager;
 
 public class ExamplePlugin extends Plugin {
-    @Inject
-    private Client client;
+  @Inject
+  private Client client;
 
-    @Inject
-    private KeyManager keyManager;
+  @Inject
+  private KeyManager keyManager;
 
-    @Inject
-    private ExampleConfig config;
+  @Inject
+  private ExampleConfig config;
 
-    // Plugin code goes here
+  // Plugin code goes here
 }
 ```
 
@@ -757,20 +759,20 @@ If your plugin requires configuration settings, you can create a method annotate
 
 ```java
 import javax.inject.Inject;
-import net.runelite.client.config.ConfigManager;
-import net.runelite.client.plugins.Plugin;
+import net.RuneLite.client.config.ConfigManager;
+import net.RuneLite.client.plugins.Plugin;
 import com.google.inject.Provides;
 
 public class ExamplePlugin extends Plugin {
-    @Inject
-    private ExampleConfig config;
+  @Inject
+  private ExampleConfig config;
 
-    @Provides
-    public ExampleConfig getConfig(ConfigManager configManager) {
-        return configManager.getConfig(ExampleConfig.class);
-    }
+  @Provides
+  public ExampleConfig getConfig(ConfigManager configManager) {
+    return configManager.getConfig(ExampleConfig.class);
+  }
 
-    // Plugin code goes here
+  // Plugin code goes here
 }
 ```
 
@@ -779,26 +781,26 @@ public class ExamplePlugin extends Plugin {
 Override the `startUp()` and `shutDown()` methods provided by the `Plugin` class. In the `startUp()` method, you can perform initialization tasks for your plugin, such as sending a welcome message to the client's chat or registering event listeners. In the `shutDown()` method, you can perform cleanup tasks or finalize operations, like sending a goodbye message or unregistering event listeners.
 
 ```java
-import net.runelite.api.ChatMessageType;
-import net.runelite.api.events.ChatMessage;
-import net.runelite.client.plugins.Plugin;
+import net.RuneLite.api.ChatMessageType;
+import net.RuneLite.api.events.ChatMessage;
+import net.RuneLite.client.plugins.Plugin;
 
 public class ExamplePlugin extends Plugin {
-    // ...
+  // ...
 
-    @Override
-    public void startUp() {
-        sendClientMessage("Hello " + client.getLocalPlayer().getName() + "!");
-        keyManager.registerKeyListener(startButton);
-    }
+  @Override
+  public void startUp() {
+    sendClientMessage("Hello " + client.getLocalPlayer().getName() + "!");
+    keyManager.registerKeyListener(startButton);
+  }
 
-    @Override
-    public void shutDown() {
-        sendClientMessage("Goodbye " + client.getLocalPlayer().getName() + "!");
-        keyManager.unregisterKeyListener(startButton);
-    }
+  @Override
+  public void shutDown() {
+    sendClientMessage("Goodbye " + client.getLocalPlayer().getName() + "!");
+    keyManager.unregisterKeyListener(startButton);
+  }
 
-    // ...
+  // ...
 }
 ```
 
@@ -807,40 +809,40 @@ public class ExamplePlugin extends Plugin {
 To interact with the RuneLite client, you can add UI elements and register event listeners. For example, you can define a `HotkeyListener` to listen for specific hotkey events. When the hotkey is pressed, the associated method will be executed. You can use the `sendClientMessage()` method to send messages to the client's chat.
 
 ```java
-import net.runelite.client.input.KeyManager;
-import net.runelite.client.util.HotkeyListener;
-import net.runelite.client.plugins.Plugin;
+import net.RuneLite.client.input.KeyManager;
+import net.RuneLite.client.util.HotkeyListener;
+import net.RuneLite.client.plugins.Plugin;
 
 public class ExamplePlugin extends Plugin {
-    @Inject
-    private KeyManager keyManager;
+  @Inject
+  private KeyManager keyManager;
 
-    private final HotkeyListener startButton = new HotkeyListener(() -> config.ExampleHotKey()) {
-        @Override
-        public void hotkeyPressed() {
-            sendClientMessage("Start button pressed!");
-        }
-    };
-
-    // ...
-
+  private final HotkeyListener startButton = new HotkeyListener(() -> config.ExampleHotKey()) {
     @Override
-    public void startUp() {
-        // ...
-        keyManager.registerKeyListener(startButton);
+    public void hotkeyPressed() {
+      sendClientMessage("Start button pressed!");
     }
+  };
 
-    @Override
-    public void shutDown() {
-        // ...
-        keyManager.unregisterKeyListener(startButton);
-    }
+  // ...
 
-    public void sendClientMessage(String message) {
-        client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", message, null);
-    }
-
+  @Override
+  public void startUp() {
     // ...
+    keyManager.registerKeyListener(startButton);
+  }
+
+  @Override
+  public void shutDown() {
+    // ...
+    keyManager.unregisterKeyListener(startButton);
+  }
+
+  public void sendClientMessage(String message) {
+    client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", message, null);
+  }
+
+  // ...
 }
 ```
 
@@ -849,25 +851,25 @@ public class ExamplePlugin extends Plugin {
 You can listen for specific events, such as chat messages, by annotating a method with `@Subscribe`. Inside the event listener method, you can check the event type and perform actions accordingly. For example, if a chat message of type `GAMEMESSAGE` contains the word "test," you can send a response message to the client's chat.
 
 ```java
-import net.runelite.api.ChatMessageType;
-import net.runelite.api.events.ChatMessage;
-import net.runelite.client.plugins.Plugin;
-import net.runelite.client.eventbus.Subscribe;
+import net.RuneLite.api.ChatMessageType;
+import net.RuneLite.api.events.ChatMessage;
+import net.RuneLite.client.plugins.Plugin;
+import net.RuneLite.client.eventbus.Subscribe;
 
 public class ExamplePlugin extends Plugin {
-    // ...
+  // ...
 
-    @Subscribe
-    public void onChatMessage(ChatMessage event) {
-        if (event.getType() == ChatMessageType.GAMEMESSAGE) {
-            String message = event.getMessage();
-            if (message.contains("test")) {
-                sendClientMessage("Test successful!");
-            }
-        }
+  @Subscribe
+  public void onChatMessage(ChatMessage event) {
+    if (event.getType() == ChatMessageType.GAMEMESSAGE) {
+      String message = event.getMessage();
+      if (message.contains("test")) {
+        sendClientMessage("Test successful!");
+      }
     }
+  }
 
-    // ...
+  // ...
 }
 ```
 
@@ -896,19 +898,19 @@ Plugins can listen to various game events to be notified of changes or specific 
 To listen to game events, you need to annotate a method with the `@Subscribe` annotation and specify the event class you want to listen to. Here's an example of listening to the `GameStateChanged` event:
 
 ```java
-import net.runelite.api.events.GameStateChanged;
-import net.runelite.client.plugins.Plugin;
-import net.runelite.client.eventbus.Subscribe;
+import net.RuneLite.api.events.GameStateChanged;
+import net.RuneLite.client.plugins.Plugin;
+import net.RuneLite.client.eventbus.Subscribe;
 
 public class ExamplePlugin extends Plugin {
-    // ...
+  // ...
 
-    @Subscribe
-    public void onGameStateChanged(GameStateChanged event) {
-        // Handle the game state change event
-    }
+  @Subscribe
+  public void onGameStateChanged(GameStateChanged event) {
+    // Handle the game state change event
+  }
 
-    // ...
+  // ...
 }
 ```
 
@@ -933,17 +935,17 @@ Plugins can display overlays on the game client to provide additional informatio
 To create an overlay, you can extend the `Overlay` class provided by the RuneLite API and implement the necessary methods. Here's an example:
 
 ```java
-import net.runelite.api.overlay.Overlay;
-import net.runelite.api.overlay.OverlayLayer;
-import net.runelite.api.overlay.OverlayPosition;
-import net.runelite.api.overlay.OverlayUtil;
+import net.RuneLite.api.overlay.Overlay;
+import net.RuneLite.api.overlay.OverlayLayer;
+import net.RuneLite.api.overlay.OverlayPosition;
+import net.RuneLite.api.overlay.OverlayUtil;
 import java.awt.Graphics2D;
 
 public class ExampleOverlay extends Overlay {
-    @Override
-    public void render(Graphics2D graphics) {
-        // Render the overlay
-    }
+  @Override
+  public void render(Graphics2D graphics) {
+    // Render the overlay
+  }
 }
 ```
 
@@ -952,8 +954,8 @@ You can then register your overlay using the `OverlayManager` in the plugin's `s
 ```java
 @Override
 public void startUp() {
-    overlayManager.add(overlay);
-}
+        overlayManager.add(overlay);
+        }
 ```
 
 By utilizing overlays, you can provide useful visual information to players within the game client.
@@ -965,18 +967,18 @@ Plugins can respond to user input events, such as mouse clicks or key presses, t
 To listen to user input events, you can implement the `MouseListener` or `KeyListener` interfaces provided by the RuneLite API. Here's an example of implementing a mouse click listener:
 
 ```java
-import net.runelite.client.input.MouseListener;
-import net.runelite.client.plugins.Plugin;
+import net.RuneLite.client.input.MouseListener;
+import net.RuneLite.client.plugins.Plugin;
 
 public class ExamplePlugin extends Plugin implements MouseListener {
-    // ...
+  // ...
 
-    @Override
-    public MouseEvent mouseClicked(MouseEvent event) {
-        // Handle the mouse click event
-    }
+  @Override
+  public MouseEvent mouseClicked(MouseEvent event) {
+    // Handle the mouse click event
+  }
 
-    // ...
+  // ...
 }
 ```
 
@@ -985,14 +987,12 @@ You can then register your plugin as a mouse listener using the `MouseManager` i
 ```java
 @Override
 public void startUp() {
-    mouseManager.registerMouseListener(this);
-}
+        mouseManager.registerMouseListener(this);
+        }
 ```
 
 By responding to user input events, you can create interactive plugins that allow players to interact with your plugin's features.
 
-#### Summary
-In this section, we explored the extensive capabilities of RuneLite plugins for interacting with the RuneScape game client. You learned how to access game client data, listen to game events, modify game behavior using hooks, display overlays, and respond to user input. With these powerful features at your disposal, you can create immersive and interactive plugins that enhance the RuneScape gaming experience.
 
 ---
 
@@ -1007,24 +1007,24 @@ Custom overlays allow you to add visual elements to the game client, providing a
 To create a custom overlay, you can extend the `Overlay` class provided by the RuneLite API and implement the necessary rendering logic. Here's an example:
 
 ```java
-import net.runelite.api.overlay.Overlay;
-import net.runelite.api.overlay.OverlayLayer;
-import net.runelite.api.overlay.OverlayPosition;
+import net.RuneLite.api.overlay.Overlay;
+import net.RuneLite.api.overlay.OverlayLayer;
+import net.RuneLite.api.overlay.OverlayPosition;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 
 public class CustomOverlay extends Overlay {
-    private static final Color OVERLAY_COLOR = new Color(255, 0, 0, 100);
+  private static final Color OVERLAY_COLOR = new Color(255, 0, 0, 100);
 
-    @Override
-    public Dimension render(Graphics2D graphics) {
-        // Perform custom rendering logic here
-        graphics.setColor(OVERLAY_COLOR);
-        graphics.fillRect(50, 50, 100, 100);
-        
-        return null; // Return null to indicate that the overlay should be rendered continuously
-    }
+  @Override
+  public Dimension render(Graphics2D graphics) {
+    // Perform custom rendering logic here
+    graphics.setColor(OVERLAY_COLOR);
+    graphics.fillRect(50, 50, 100, 100);
+
+    return null; // Return null to indicate that the overlay should be rendered continuously
+  }
 }
 ```
 
@@ -1037,71 +1037,71 @@ Advanced plugins often require interaction with mouse and keyboard events to pro
 To handle mouse events, you can implement the `MouseListener` interface provided by the RuneLite API. Here's an example:
 
 ```java
-import net.runelite.client.input.MouseAdapter;
-import net.runelite.client.plugins.Plugin;
+import net.RuneLite.client.input.MouseAdapter;
+import net.RuneLite.client.plugins.Plugin;
 
 public class ExamplePlugin extends Plugin {
-    private final MouseAdapter mouseAdapter = new MouseAdapter() {
-        @Override
-        public MouseEvent mousePressed(MouseEvent event) {
-            // Handle mouse press event
-            return event;
-        }
-
-        @Override
-        public MouseEvent mouseReleased(MouseEvent event) {
-            // Handle mouse release event
-            return event;
-        }
-
-        // Override other mouse event methods as needed
-    };
-
+  private final MouseAdapter mouseAdapter = new MouseAdapter() {
     @Override
-    public void startUp() {
-        mouseManager.registerMouseListener(mouseAdapter);
+    public MouseEvent mousePressed(MouseEvent event) {
+      // Handle mouse press event
+      return event;
     }
 
     @Override
-    public void shutDown() {
-        mouseManager.unregisterMouseListener(mouseAdapter);
+    public MouseEvent mouseReleased(MouseEvent event) {
+      // Handle mouse release event
+      return event;
     }
+
+    // Override other mouse event methods as needed
+  };
+
+  @Override
+  public void startUp() {
+    mouseManager.registerMouseListener(mouseAdapter);
+  }
+
+  @Override
+  public void shutDown() {
+    mouseManager.unregisterMouseListener(mouseAdapter);
+  }
 }
 ```
 
 Similarly, you can handle keyboard events by implementing the `KeyListener` interface and registering it with the `KeyManager`. This allows you to respond to key presses and releases:
 
 ```java
-import net.runelite.client.input.KeyListener;
-import net.runelite.client.plugins.Plugin;
+import net.RuneLite.client.input.KeyListener;
+import net.RuneLite.client.plugins.Plugin;
 
 public class ExamplePlugin extends Plugin {
-    private final KeyListener keyListener = new KeyListener() {
-        @Override
-        public void keyTyped(KeyEvent event) {
-            // Handle key typed event
-        }
-
-        @Override
-        public void keyPressed(KeyEvent event) {
-            // Handle key press event
-        }
-
-        @Override
-        public void keyReleased(KeyEvent event) {
-            // Handle key release event
-        }
-    };
-
+  private final KeyListener keyListener = new KeyListener() {
     @Override
-    public void startUp() {
-        keyManager.registerKeyListener(keyListener);
+    public void keyTyped(KeyEvent event) {
+      // Handle key typed event
     }
 
     @Override
-    public void shutDown() {
-        keyManager.unregisterKeyListener(keyListener);
+    public void keyPressed(KeyEvent event) {
+      // Handle key press event
     }
+
+    @Override
+    public void keyReleased(KeyEvent event) {
+      // Handle key release event
+    }
+  };
+
+  @Override
+  public void startUp() {
+    keyManager.registerKeyListener(keyListener);
+  }
+
+  @Override
+  public void shutDown() {
+    keyManager.unregisterKeyListener(keyListener);
+  }
 }
 ```
 
@@ -1117,11 +1117,11 @@ For example, if you want to use the Apache HttpClient library to make HTTP reque
 
 ```xml
 <dependencies>
-    <dependency>
-        <groupId>org.apache.httpcomponents</groupId>
-        <artifactId>httpclient</artifactId>
-        <version>4.5.13</version>
-    </dependency>
+  <dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.13</version>
+  </dependency>
 </dependencies>
 ```
 
@@ -1132,9 +1132,9 @@ import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 
 public class ExamplePlugin extends Plugin {
-    private final HttpClient httpClient = HttpClientBuilder.create().build();
+  private final HttpClient httpClient = HttpClientBuilder.create().build();
 
-    // Use the httpClient to make HTTP requests
+  // Use the httpClient to make HTTP requests
 }
 ```
 
@@ -1147,21 +1147,21 @@ Plugins often require configuration settings that can be customized by users. Ru
 To create a configuration for your plugin, you can define a configuration class and annotate it with `@ConfigGroup` and `@ConfigItem` annotations. Here's an example:
 
 ```java
-import net.runelite.client.config.Config;
-import net.runelite.client.config.ConfigGroup;
-import net.runelite.client.config.ConfigItem;
+import net.RuneLite.client.config.Config;
+import net.RuneLite.client.config.ConfigGroup;
+import net.RuneLite.client.config.ConfigItem;
 
 @ConfigGroup("example")
 public interface ExampleConfig extends Config {
-    @ConfigItem(
-        keyName = "optionEnabled",
-        name = "Enable Option",
-        description = "Enable a specific option",
-        position = 0
-    )
-    default boolean optionEnabled() {
-        return false;
-    }
+  @ConfigItem(
+          keyName = "optionEnabled",
+          name = "Enable Option",
+          description = "Enable a specific option",
+          position = 0
+  )
+  default boolean optionEnabled() {
+    return false;
+  }
 }
 ```
 
@@ -1169,25 +1169,25 @@ By using the `ConfigManager`, you can access and modify the plugin's configurati
 
 ```java
 import javax.inject.Inject;
-import net.runelite.client.config.ConfigManager;
-import net.runelite.client.plugins.Plugin;
+import net.RuneLite.client.config.ConfigManager;
+import net.RuneLite.client.plugins.Plugin;
 
 public class ExamplePlugin extends Plugin {
-    @Inject
-    private ExampleConfig config;
+  @Inject
+  private ExampleConfig config;
 
-    @Inject
-    private ConfigManager configManager;
+  @Inject
+  private ConfigManager configManager;
 
-    @Override
-    public void startUp() {
-        boolean optionEnabled = config.optionEnabled();
-        // Use the configuration setting
-    }
+  @Override
+  public void startUp() {
+    boolean optionEnabled = config.optionEnabled();
+    // Use the configuration setting
+  }
 
-    public void setOptionEnabled(boolean enabled) {
-        configManager.setConfiguration("example", "optionEnabled", enabled);
-    }
+  public void setOptionEnabled(boolean enabled) {
+    configManager.setConfiguration("example", "optionEnabled", enabled);
+  }
 }
 ```
 
@@ -1211,13 +1211,11 @@ By following these optimization techniques, you can create high-performance plug
 
 # Section 3: External Plugin Informative
 
-## 3.1 External Plugin Informative
+## 3.1 External Plugin Warning
 
-#### External Plugin Informative
+Here we will explore the usage of the RuneLite API for some not so good things. This may include loading in plugins not meant to be usable through RuneLite's Plugin Hub or Plugins that were removed by Gagex request.
 
-Here we will explore the usage of the RuneLite API for some not so good things. This may include loading in plugins not meant to be usable through RuneLite's Plugin Hub. 
-
-#### WARNING: Educational Purposes Only
+#### Educational Purposes Only
 
 This section is for educational purposes only. We do not condone the usage of these plugins in any way. We are simply showcasing the capabilities of the RuneLite API and how it can be used to create plugins that are not meant to be used through the Plugin Hub. Please use at your own risk.
 
@@ -1229,7 +1227,7 @@ EthanVann has made significant contributions to the plugin repository we are cre
 
 ## EthanVannAPI usage in SuperGlassMakerPlugin
 
-#### Package Dependencies
+### Package Dependencies
 The following packages are imported by the SuperGlassMakerPlugin:
 
 ```java
@@ -1245,10 +1243,10 @@ The `SuperGlassMakerPlugin` class extends the `Plugin` class and is decorated wi
 
 ```java
 @PluginDescriptor(
-    name = "Super Glass Maker",
-    description = "",
-    enabledByDefault = false,
-    tags = {"ethan"}
+        name = "Super Glass Maker",
+        description = "",
+        enabledByDefault = false,
+        tags = {"ethan"}
 )
 @Slf4j
 @PluginDependency(PacketUtilsPlugin.class)
@@ -1290,6 +1288,8 @@ int timesFailed = 0;
 ### Game Interactions
 The `onGameTick(GameTick event)` method handles various game interactions, such as item picking, NPC interactions, and bank transactions. The usage of WidgetPackets and MousePackets suggests operations related to UI and mouse movements.
 
+Please note that this plugin appears to be designed for a specific game, as it references game-specific items like `Secondary.GIANT_SEAWEED` and `SuperGlassMakerPluginConfig`. To use this plugin with a different game, you may need to replace these items with game-specific equivalents.
+
 ### Logging
 Throughout the plugin, there are several logging statements used to trace operations and aid in debugging in case of errors or exceptions.
 
@@ -1297,7 +1297,92 @@ Note: The exact functionality of this plugin may vary depending on the game it i
 
 For the complete code, please refer to the following link: [SuperGlassMakerPlugin](https://github.com/Ethan-Vann/EthanVannPlugins/tree/master/src/main/java/com/example/superglass)
 
-### In Progress
+### Game Tick Event Subscription
+The plugin subscribes to the game tick event. Each game tick triggers the execution of the `onGameTick` method.
+
+```java
+@Subscribe
+public void onGameTick(GameTick event) throws NoSuchFieldException, ClassNotFoundException, InvocationTargetException, NoSuchMethodException, IllegalAccessException {
+    // Code here...
+}
+```
+
+### Bank or Banker Interaction
+If no bank widget is active, the plugin searches for a banker NPC or a bank tile object (both having an action named "Bank") nearest to the player. It interacts with the first it finds to open the bank interface.
+
+```java
+Optional<NPC> banker = NPCs.search().withAction("Bank").nearestToPlayer();
+Optional<TileObject> bank = TileObjects.search().withAction("Bank").nearestToPlayer();
+```
+
+### Item Checks
+The plugin checks for specific items in the bank necessary for Super Glass Making: Bucket of Sand, Molten Glass, Astral Rune, and a secondary item. It also checks for the required spell widget. If any of these are not found, a corresponding message is sent to the game chat.
+
+```java
+Optional<Widget> sand = Bank.search().withId(ItemID.BUCKET_OF_SAND).first();
+Optional<Widget> glass = BankInventory.search().withId(ItemID.MOLTEN_GLASS).first();
+Optional<Widget> astral = BankInventory.search().withId(ItemID.ASTRAL_RUNE).first();
+Optional<Widget> secondary = Bank.search().withId(config.secondary().getId()).first();
+Widget make_glass = client.getWidget(14286966);
+```
+
+### Failure Handling
+If any item check fails, this increases a fail counter. If the fail counter exceeds 2, the plugin is stopped.
+
+```java
+timesFailed++;
+
+if (timesFailed > 2) {
+    EthanApiPlugin.stopPlugin(this);
+}
+```
+
+### Item Withdrawal
+If all necessary items are found, the plugin begins withdrawing these items in precise amounts from the bank.
+
+```java
+BankInteraction.withdrawX(sand.get(), config.secondary().getSandAmount());
+```
+
+### Secondary Item Handling
+An additional method, `handleSecondary()`, takes care of dealing with different types of the secondary element. If anything goes wrong in this function, it returns false which signals the main routine to stop the plugin.
+
+```java
+Optional<Widget> secondary = Bank.search().withId(config.secondary().getId()).first();
+if (secondary.isEmpty()) {
+    client.addChatMessage(ChatMessageType.GAMEMESSAGE, "", "no secondary second try", null);
+    return false;
+}
+
+if (config.secondary() == Secondary.GIANT_SEAWEED) {
+    MousePackets.queueClickPacket();
+    WidgetPackets.queueWidgetAction(secondary.get(), "Withdraw-1");
+    MousePackets.queueClickPacket();
+    WidgetPackets.queueWidgetAction(secondary.get(), "Withdraw-1");
+    MousePackets.queueClickPacket();
+    WidgetPackets.queueWidgetAction(secondary.get(), "Withdraw-1");
+    return true;
+}
+
+BankInteraction.withdrawX(secondary.get(), config.secondary().getSandAmount());
+return true;
+```
+
+### Casting the Spell
+Finally, if all steps are successful, the plugin casts the Super Glass Making spell via a click packet and queueWidgetAction.
+
+```java
+MousePackets.queueClickPacket();
+WidgetPackets.queueWidgetAction(make_glass, "Cast");
+```
+<sup> There is an easier way to do this my creating a Magic Handling class, we can cover later - Cago </sup>
+
+### Timeout
+After performing an operation, a timeout of 3 ticks is set to prevent immediate re-triggering of the method.
+
+```java
+timeout = 3;
+```
 
 ---
 
@@ -1305,20 +1390,40 @@ For the complete code, please refer to the following link: [SuperGlassMakerPlugi
 
 ### In Progress
 
+
 ---
 
 ## 3.4 Game Pack Reflection
 
+><i>" Mixin files in RuneLite serve as connections to the game client, allowing developers to access specific methods and data. These files are kept private and obfuscated, meaning their inner workings are hidden. When RuneLite is initialized, these mixin files are loaded to inject or retrieve game information in a logical way.
+<br><br>To understand mixins, let's consider a couple of examples. Imagine we want to get data about the currently selected spell widget in the game. In this case, we use a hook to directly access the needed information from the game client. On the other hand, if we need to determine the animation ID of a character, we may require additional information from different fields. This is where a mixin comes in, helping us access those specific fields to calculate the animation ID correctly.
+<br><br>Finding the obfuscated method names in the patched RuneLite client involves a simple process. For instance, if we're looking for the obfuscated name of the method "getAnimationID," we can obtain an instance of the relevant class, like an Actor. By calling a method on that instance and logging the result, we can identify the obfuscated name we're looking for.
+<br><br>Typically, obfuscated method names have an extra parameter compared to their original unobfuscated versions. This additional parameter is usually a throwaway value, such as an integer. By observing the number of parameters and checking for any additional ones, we can identify the obfuscated method.
+<br><br>Mixin files and hooks enable developers to enhance the functionality of the RuneLite client. They allow access to specific game information and support more complex operations. In cases where RuneLite doesn't provide built-in hooks for certain gamepack methods, developers can utilize mixins and hooks to interact with them and achieve their desired goals. This flexibility empowers developers to customize and improve the RuneLite client to suit their needs.
+>"</i>
+>
+> -- <cite>[SkylerMiner](#SkylerMiner) 7/18/2023</cite>
 ### In Progress
 
 ---
 
-#### Summary
+# Credits
+#### [EthanVann](https://github.com/Ethan-Vann)
 
-In this section, we explored advanced features and techniques for RuneLite plugin development. You learned how to create custom overlays, handle mouse and keyboard input, utilize external APIs and libraries, manage plugin configurations and settings, and optimize plugin performance. By mastering these advanced concepts
+#### [Kotori](https://github.com/OreoCupcakes)
 
-, you can create sophisticated and powerful plugins that offer a wide range of features and enhance the RuneScape gaming experience.
+#### SkylerMiner
+#### Bilbo
+#### [Cago](https://github.com/CagoThaPlug)
 
+---
+
+# TODO:
+
+- [ ] Add more examples
+- [ ] Add more references
+- [ ] Add more resources
+- [ ] Add more credits
 
 ---
 
@@ -1326,8 +1431,42 @@ In this section, we explored advanced features and techniques for RuneLite plugi
 
 Congratulations on completing the Comprehensive Guide to Learning Java and Writing RuneLite Plugins! This guide has equipped you with a solid foundation in Java programming and the necessary skills to develop your own RuneLite plugins. Remember to keep exploring, practicing, and building upon what you've learned to further enhance your programming abilities.
 
+
+---
+
+## Additional Resources
+
 For additional resources, references, and ongoing community support, check out the following:
 
-Happy coding!
+### Repos of Interest 
+
+- EthanVann Forks
+    - [PiggyPlugins](https://github.com/0Hutch/PiggyPlugins)
+    - [ImpacePlugins](https://github.com/moneyprinterbrrr/ImpactPlugins)
+    - [Oluiscabral](https://github.com/oluiscabral/runescape-plugins)
+    - [RuneBotEVP](https://github.com/KALE1111/RuneBotEVP)
+    - [KatAnalPlug](https://github.com/PaJauKat/KatAnalPlug)
+
+<br>
+
+<sup> Want to add to the List? Submit a PR or DM me on Discord! </sup>
+
+---
+
+## Contact Info
+
+- Discord: .zalc (User ID: 242837834120036353)
+- Discord: cagomyre (User ID: 1072925304982614138)
+
+I only have these 2 discord I will never PM you from another. <br> If you get a PM from someone claiming to be me, it is not me.
+
+---
+
+Want to give a thanks?
+<br>
+<br>
+[![coinbase](https://img.shields.io/badge/Donate-Coinbase-blue.svg)](https://commerce.coinbase.com/checkout/57579fb4-002e-4a2a-a4a3-a1cf523c2dfd)
+
+<sup>[Back to Top](#table-of-contents)</sup>
 
 ---
