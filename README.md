@@ -18,8 +18,12 @@ Welcome to the Comprehensive Guide to Learning Java and Writing RuneLite Plugins
   - [2.3 Creating Your First RuneLite Plugin](#23-creating-your-first-runelite-plugin)
   - [2.4 Interacting with the RuneScape Game Client](#24-interacting-with-the-runescape-game-client)
   - [2.5 Advanced Plugin Features](#25-advanced-plugin-features)
-  - [2.6 EthanVann Plugin API](#26-ethanvann-plugin-api)
-  - [2.7 Kotori Plugin Loader](#27-kotori-plugin-loader)
+
+- [Section 3: External Plugin Informative](#section-3-external-plugin-informative)
+  - [3.1 External Plugin Informative](#31-external-plugin-informative)
+  - [3.2 EthanVann Plugin API](#32-ethanvann-plugin-api)
+  - [3.3 Kotori Plugin Loader](#33-kotori-plugin-loader)
+  - [3.4 Game Pack Reflection](#34-game-pack-reflection)
 
 ---
 
@@ -1205,7 +1209,21 @@ By following these optimization techniques, you can create high-performance plug
 
 ---
 
-## 2.6 EthanVann Plugin API
+# Section 3: External Plugin Informative
+
+## 3.1 External Plugin Informative
+
+#### External Plugin Informative
+
+Here we will explore the usage of the RuneLite API for some not so good things. This may include loading in plugins not meant to be usable through RuneLite's Plugin Hub. 
+
+#### WARNING: Educational Purposes Only
+
+This section is for educational purposes only. We do not condone the usage of these plugins in any way. We are simply showcasing the capabilities of the RuneLite API and how it can be used to create plugins that are not meant to be used through the Plugin Hub. Please use at your own risk.
+
+---
+
+## 3.2 EthanVann Plugin API
 
 EthanVann has made significant contributions to the plugin repository we are creating, showcasing his skills as a RuneLite plugin developer. In this chapter, we'll explore EthanVann's contributions, focusing on his API and the impact it has had on the plugin development community.
 
@@ -1279,13 +1297,19 @@ Throughout the plugin, there are several logging statements used to trace operat
 
 Note: The exact functionality of this plugin may vary depending on the game it is designed for. This documentation provides an outline based on common patterns found in game plugins.
 
-For the complete code, please refer to the following link: [SuperGlassMakerPlugin](https://github.com/your-username/example)
+For the complete code, please refer to the following link: [SuperGlassMakerPlugin](https://github.com/Ethan-Vann/EthanVannPlugins/tree/master/src/main/java/com/example/superglass)
 
 ---
 
-## 2.7 Kotori Plugin Loader
+## 3.3 Kotori Plugin Loader
 
-### in progress
+### In Progress
+
+---
+
+## 3.4 Game Pack Reflection
+
+### In Progress
 
 ---
 
