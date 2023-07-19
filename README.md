@@ -1,5 +1,10 @@
 # Comprehensive Guide to Learning Java and Writing RuneLite Plugins
 
+![](https://komarev.com/ghpvc/?username=CagoThaPlug&label=PROFILEVIEWS)
+
+---
+
+
 Welcome to the Comprehensive Guide to Learning Java and Writing RuneLite Plugins! This guide is designed to provide you with a solid foundation in Java programming and help you get started with developing plugins for the RuneLite client. Whether you're a beginner or have some programming experience, this guide will walk you through the essentials and provide you with examples and resources to enhance your learning.
 
 ## Table of Contents
