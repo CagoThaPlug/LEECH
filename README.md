@@ -1302,10 +1302,6 @@ Please note that this plugin appears to be designed for a specific game, as it r
 ### Logging
 Throughout the plugin, there are several logging statements used to trace operations and aid in debugging in case of errors or exceptions.
 
-Note: The exact functionality of this plugin may vary depending on the game it is designed for. This documentation provides an outline based on common patterns found in game plugins.
-
-For the complete code, please refer to the following link: [SuperGlassMakerPlugin](https://github.com/Ethan-Vann/EthanVannPlugins/tree/master/src/main/java/com/example/superglass)
-
 ### Game Tick Event Subscription
 The plugin subscribes to the game tick event. Each game tick triggers the execution of the `onGameTick` method.
 
@@ -1393,11 +1389,23 @@ After performing an operation, a timeout of 3 ticks is set to prevent immediate 
 timeout = 3;
 ```
 
+<sup> 
+
+In progress
+
+For the complete code, please refer to the following link: [SuperGlassMakerPlugin](https://github.com/Ethan-Vann/EthanVannPlugins/tree/master/src/main/java/com/example/superglass) 
+
+</sup>
+
 ---
 
 ## 3.3 Kotori Plugin Loader
 
-### In Progress
+<sup> 
+
+In progress
+
+</sup>
 
 
 ---
@@ -1412,7 +1420,12 @@ timeout = 3;
 >"</i>
 >
 > -- <cite>[SkylerMiner](#SkylerMiner) 7/18/2023</cite>
-### In Progress
+
+<sup>
+
+In Progress
+
+</sup>
 
 ---
 
