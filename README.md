@@ -1,6 +1,6 @@
 # Comprehensive Guide to Learning Java and Writing RuneLite Plugins
 
-![](https://komarev.com/ghpvc/?username=CagoThaPlug&label=PROFILEVIEWS)
+
 
 ---
 
@@ -29,6 +29,10 @@ Welcome to the Comprehensive Guide to Learning Java and Writing RuneLite Plugins
   - [3.2 EthanVann Plugin API](#32-ethanvann-plugin-api)
   - [3.3 Kotori Plugin Loader](#33-kotori-plugin-loader)
   - [3.4 Game Pack Reflection](#34-game-pack-reflection)
+- [Credits](#credits)
+- [TODO](#todo)
+- [Additonal Resources](#additional-resources)
+- [Contact Info](#contact-info)
 
 ---
 
@@ -1412,23 +1416,11 @@ timeout = 3;
 
 ---
 
-# Credits
-#### [EthanVann](https://github.com/Ethan-Vann)
-
-#### [Kotori](https://github.com/OreoCupcakes)
-
-#### SkylerMiner
-#### Bilbo
-#### [Cago](https://github.com/CagoThaPlug)
-
----
-
 # TODO:
 
-- [ ] Add more examples
-- [ ] Add more references
-- [ ] Add more resources
-- [ ] Add more credits
+- [ ] Extend Section 3
+- [ ] More Examples
+- [ ] Resources
 
 ---
 
@@ -1437,25 +1429,9 @@ timeout = 3;
 
 #### [Kotori](https://github.com/OreoCupcakes)
 
-#### SkylerMiner
-#### Bilbo
+#### [SkylerMiner](https://github.com/SkylerPIlot)
+#### [Bilbo](https://www.youtube.com/watch?v=Z65DM37RhyY)
 #### [Cago](https://github.com/CagoThaPlug)
-
----
-
-# TODO:
-
-- [ ] Add more examples
-- [ ] Add more references
-- [ ] Add more resources
-- [ ] Add more credits
-
----
-
-## Conclusion
-
-Congratulations on completing the Comprehensive Guide to Learning Java and Writing RuneLite Plugins! This guide has equipped you with a solid foundation in Java programming and the necessary skills to develop your own RuneLite plugins. Remember to keep exploring, practicing, and building upon what you've learned to further enhance your programming abilities.
-
 
 ---
 
@@ -1467,7 +1443,7 @@ For additional resources, references, and ongoing community support, check out t
 
 - EthanVann Forks
     - [PiggyPlugins](https://github.com/0Hutch/PiggyPlugins)
-    - [ImpacePlugins](https://github.com/moneyprinterbrrr/ImpactPlugins)
+    - [ImpactPlugins](https://github.com/moneyprinterbrrr/ImpactPlugins)
     - [Oluiscabral](https://github.com/oluiscabral/runescape-plugins)
     - [RuneBotEVP](https://github.com/KALE1111/RuneBotEVP)
     - [KatAnalPlug](https://github.com/PaJauKat/KatAnalPlug)
@@ -1491,6 +1467,19 @@ Want to give a thanks?
 <br>
 <br>
 [![coinbase](https://img.shields.io/badge/Donate-Coinbase-blue.svg)](https://commerce.coinbase.com/checkout/57579fb4-002e-4a2a-a4a3-a1cf523c2dfd)
+
+---
+
+[![CagoThaPlug - LEECH](https://img.shields.io/static/v1?label=CagoThaPlug&message=LEECH&color=grey&logo=github)](https://github.com/CagoThaPlug/LEECH "Go to GitHub repo")
+![](https://komarev.com/ghpvc/?username=CagoThaPlug&label=PROFILEVIEWS)
+![License](https://img.shields.io/badge/License-BSD--3--Clause_license-grey)
+
+<br>
+    
+![stars - LEECH](https://img.shields.io/github/stars/CagoThaPlug/LEECH?style=social)
+[![stars - LEECH](https://img.shields.io/github/stars/CagoThaPlug/LEECH?style=social)](https://github.com/CagoThaPlug/LEECH)
+[![forks - LEECH](https://img.shields.io/github/forks/CagoThaPlug/LEECH?style=social)](https://github.com/CagoThaPlug/LEECH)
+
 
 <sup>[Back to Top](#table-of-contents)</sup>
 
