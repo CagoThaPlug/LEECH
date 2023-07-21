@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AoeWarn" />
+            <option value="$PROJECT_DIR$/AutoJugHumidifier" />
+            <option value="$PROJECT_DIR$/AutoRifts" />
+            <option value="$PROJECT_DIR$/AutoTele" />
+            <option value="$PROJECT_DIR$/CalvarionHelper" />
+            <option value="$PROJECT_DIR$/CannonReloader" />
+            <option value="$PROJECT_DIR$/DeveloperTools" />
+            <option value="$PROJECT_DIR$/E3t4g" />
+            <option value="$PROJECT_DIR$/EthanApi" />
+            <option value="$PROJECT_DIR$/Example" />
+            <option value="$PROJECT_DIR$/GauntletFlicker" />
+            <option value="$PROJECT_DIR$/Harpoon2Ticker" />
+            <option value="$PROJECT_DIR$/HerbCleaner" />
+            <option value="$PROJECT_DIR$/ItemCombiner" />
+            <option value="$PROJECT_DIR$/JadAutoPrayers" />
+            <option value="$PROJECT_DIR$/LavaRunecrafter" />
+            <option value="$PROJECT_DIR$/NightmareHelper" />
+            <option value="$PROJECT_DIR$/OneTickSwitcher" />
+            <option value="$PROJECT_DIR$/PathingTesting" />
+            <option value="$PROJECT_DIR$/PiggyUtils" />
+            <option value="$PROJECT_DIR$/PluginCreator" />
+            <option value="$PROJECT_DIR$/PowerSkiller" />
+            <option value="$PROJECT_DIR$/PrayAgainstPlayer" />
+            <option value="$PROJECT_DIR$/PrayerFlicker" />
+            <option value="$PROJECT_DIR$/RooftopAgility" />
+            <option value="$PROJECT_DIR$/RunEnabler" />
+            <option value="$PROJECT_DIR$/SixHourLog" />
+            <option value="$PROJECT_DIR$/SpeedDartMaker" />
+            <option value="$PROJECT_DIR$/Superglass" />
+            <option value="$PROJECT_DIR$/Upkeep" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

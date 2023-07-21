@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.22/9c08ea24c6eb714e2d6170e8122c069a0ba9aacf/lombok-1.18.22.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.pf4j/pf4j/3.5.0/1fe11e5a2e0ef931fc11c3cb0dde0722a4296837/pf4j-3.5.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zafarkhaja/java-semver/0.9.0/59a83ca73c72a5e25b3f0b1bb305230a11000329/java-semver-0.9.0.jar" />
+        </processorPath>
+        <module name="Piggy-Converted.EthanApi.main" />
+        <module name="Piggy-Converted.RooftopAgility.main" />
+        <module name="Piggy-Converted.AutoJugHumidifier.main" />
+        <module name="Piggy-Converted.PowerSkiller.main" />
+        <module name="Piggy-Converted.HerbCleaner.main" />
+        <module name="Piggy-Converted.ItemCombiner.main" />
+        <module name="Piggy-Converted.RooftopAgility.src.main.Piggy-Converted.main" />
+        <module name="Piggy-Converted.AoeWarn.main" />
+        <module name="Piggy-Converted.PiggyUtils.main" />
+        <module name="Piggy-Converted.AutoRifts.main" />
+        <module name="Piggy-Converted.PrayAgainstPlayer.main" />
+        <module name="Piggy-Converted.SixHourLog.main" />
+        <module name="Piggy-Converted.CannonReloader.main" />
+        <module name="com.plugins.Piggy-Converted.RooftopAgility.src.main" />
+        <module name="Piggy-Converted.RooftopAgility.src.main.main" />
+        <module name="Piggy-Converted.OneTickSwitcher.main" />
+        <module name="Piggy-Converted.SpeedDartMaker.main" />
+        <module name="Piggy-Converted.JadAutoPrayers.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.plugins.EthanVann-Plugins" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AoeWarn" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AoeWarn.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AoeWarn.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AutoJugHumidifier" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AutoJugHumidifier.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AutoJugHumidifier.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AutoRifts" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AutoRifts.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AutoRifts.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AutoTele" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AutoTele.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.AutoTele.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.CalvarionHelper" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.CalvarionHelper.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.CalvarionHelper.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.CannonReloader" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.CannonReloader.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.CannonReloader.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.DeveloperTools" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.DeveloperTools.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.DeveloperTools.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.E3t4g" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.E3t4g.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.E3t4g.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.EthanApi" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.EthanApi.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.EthanApi.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Example" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Example.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Example.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.GauntletFlicker" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.GauntletFlicker.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.GauntletFlicker.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Harpoon2Ticker" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Harpoon2Ticker.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Harpoon2Ticker.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.HerbCleaner" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.HerbCleaner.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.HerbCleaner.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.ItemCombiner" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.ItemCombiner.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.ItemCombiner.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.JadAutoPrayers" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.JadAutoPrayers.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.JadAutoPrayers.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.LavaRunecrafter" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.LavaRunecrafter.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.LavaRunecrafter.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.NightmareHelper" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.NightmareHelper.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.NightmareHelper.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.OneTickSwitcher" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.OneTickSwitcher.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.OneTickSwitcher.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PathingTesting" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PathingTesting.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PathingTesting.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PiggyUtils" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PiggyUtils.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PiggyUtils.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PowerSkiller" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PowerSkiller.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PowerSkiller.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PrayAgainstPlayer" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PrayAgainstPlayer.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PrayAgainstPlayer.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PrayerFlicker" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PrayerFlicker.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.PrayerFlicker.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.RooftopAgility" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.RooftopAgility.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.RooftopAgility.src.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.RooftopAgility.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.RunEnabler" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.RunEnabler.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.RunEnabler.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.SixHourLog" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.SixHourLog.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.SixHourLog.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.SpeedDartMaker" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.SpeedDartMaker.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.SpeedDartMaker.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Superglass" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Superglass.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Superglass.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.test" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Upkeep" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Upkeep.main" target="11" />
+      <module name="com.plugins.EthanVann-Plugins.Upkeep.test" target="11" />
+      <module name="com.plugins.Piggy-Plugins.RooftopAgility.src.main" target="11" />
+      <module name="EthanVann-Plugins" target="11" />
+      <module name="EthanVann-Plugins.AoeWarn" target="11" />
+      <module name="EthanVann-Plugins.AoeWarn.main" target="11" />
+      <module name="EthanVann-Plugins.AoeWarn.test" target="11" />
+      <module name="EthanVann-Plugins.AutoJugHumidifier" target="11" />
+      <module name="EthanVann-Plugins.AutoJugHumidifier.main" target="11" />
+      <module name="EthanVann-Plugins.AutoJugHumidifier.test" target="11" />
+      <module name="EthanVann-Plugins.AutoRifts" target="11" />
+      <module name="EthanVann-Plugins.AutoRifts.main" target="11" />
+      <module name="EthanVann-Plugins.AutoRifts.test" target="11" />
+      <module name="EthanVann-Plugins.AutoTele" target="11" />
+      <module name="EthanVann-Plugins.AutoTele.main" target="11" />
+      <module name="EthanVann-Plugins.AutoTele.test" target="11" />
+      <module name="EthanVann-Plugins.buildSrc" target="11" />
+      <module name="EthanVann-Plugins.buildSrc.main" target="11" />
+      <module name="EthanVann-Plugins.buildSrc.test" target="11" />
+      <module name="EthanVann-Plugins.CalvarionHelper" target="11" />
+      <module name="EthanVann-Plugins.CalvarionHelper.main" target="11" />
+      <module name="EthanVann-Plugins.CalvarionHelper.test" target="11" />
+      <module name="EthanVann-Plugins.CannonReloader" target="11" />
+      <module name="EthanVann-Plugins.CannonReloader.main" target="11" />
+      <module name="EthanVann-Plugins.CannonReloader.test" target="11" />
+      <module name="EthanVann-Plugins.DeveloperTools" target="11" />
+      <module name="EthanVann-Plugins.DeveloperTools.main" target="11" />
+      <module name="EthanVann-Plugins.DeveloperTools.test" target="11" />
+      <module name="EthanVann-Plugins.E3t4g" target="11" />
+      <module name="EthanVann-Plugins.E3t4g.main" target="11" />
+      <module name="EthanVann-Plugins.E3t4g.test" target="11" />
+      <module name="EthanVann-Plugins.EthanApi" target="11" />
+      <module name="EthanVann-Plugins.EthanApi.main" target="11" />
+      <module name="EthanVann-Plugins.EthanApi.test" target="11" />
+      <module name="EthanVann-Plugins.Example" target="11" />
+      <module name="EthanVann-Plugins.Example.main" target="11" />
+      <module name="EthanVann-Plugins.Example.test" target="11" />
+      <module name="EthanVann-Plugins.GauntletFlicker" target="11" />
+      <module name="EthanVann-Plugins.GauntletFlicker.main" target="11" />
+      <module name="EthanVann-Plugins.GauntletFlicker.test" target="11" />
+      <module name="EthanVann-Plugins.Harpoon2Ticker" target="11" />
+      <module name="EthanVann-Plugins.Harpoon2Ticker.main" target="11" />
+      <module name="EthanVann-Plugins.Harpoon2Ticker.test" target="11" />
+      <module name="EthanVann-Plugins.HerbCleaner" target="11" />
+      <module name="EthanVann-Plugins.HerbCleaner.main" target="11" />
+      <module name="EthanVann-Plugins.HerbCleaner.test" target="11" />
+      <module name="EthanVann-Plugins.ItemCombiner" target="11" />
+      <module name="EthanVann-Plugins.ItemCombiner.main" target="11" />
+      <module name="EthanVann-Plugins.ItemCombiner.test" target="11" />
+      <module name="EthanVann-Plugins.JadAutoPrayers" target="11" />
+      <module name="EthanVann-Plugins.JadAutoPrayers.main" target="11" />
+      <module name="EthanVann-Plugins.JadAutoPrayers.test" target="11" />
+      <module name="EthanVann-Plugins.LavaRunecrafter" target="11" />
+      <module name="EthanVann-Plugins.LavaRunecrafter.main" target="11" />
+      <module name="EthanVann-Plugins.LavaRunecrafter.test" target="11" />
+      <module name="EthanVann-Plugins.main" target="11" />
+      <module name="EthanVann-Plugins.NightmareHelper" target="11" />
+      <module name="EthanVann-Plugins.NightmareHelper.main" target="11" />
+      <module name="EthanVann-Plugins.NightmareHelper.test" target="11" />
+      <module name="EthanVann-Plugins.OneTickSwitcher" target="11" />
+      <module name="EthanVann-Plugins.OneTickSwitcher.main" target="11" />
+      <module name="EthanVann-Plugins.OneTickSwitcher.test" target="11" />
+      <module name="EthanVann-Plugins.PathingTesting" target="11" />
+      <module name="EthanVann-Plugins.PathingTesting.main" target="11" />
+      <module name="EthanVann-Plugins.PathingTesting.test" target="11" />
+      <module name="EthanVann-Plugins.PiggyUtils" target="11" />
+      <module name="EthanVann-Plugins.PiggyUtils.main" target="11" />
+      <module name="EthanVann-Plugins.PiggyUtils.test" target="11" />
+      <module name="EthanVann-Plugins.PowerSkiller" target="11" />
+      <module name="EthanVann-Plugins.PowerSkiller.main" target="11" />
+      <module name="EthanVann-Plugins.PowerSkiller.test" target="11" />
+      <module name="EthanVann-Plugins.PrayAgainstPlayer" target="11" />
+      <module name="EthanVann-Plugins.PrayAgainstPlayer.main" target="11" />
+      <module name="EthanVann-Plugins.PrayAgainstPlayer.test" target="11" />
+      <module name="EthanVann-Plugins.PrayerFlicker" target="11" />
+      <module name="EthanVann-Plugins.PrayerFlicker.main" target="11" />
+      <module name="EthanVann-Plugins.PrayerFlicker.test" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility.main" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility.src" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility.src.main" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility.src.main.main" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility.src.main.Piggy-Converted" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility.src.main.Piggy-Converted.main" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility.src.main.Piggy-Converted.test" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility.src.main.test" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility.src.test" target="11" />
+      <module name="EthanVann-Plugins.RooftopAgility.test" target="11" />
+      <module name="EthanVann-Plugins.RunEnabler" target="11" />
+      <module name="EthanVann-Plugins.RunEnabler.main" target="11" />
+      <module name="EthanVann-Plugins.RunEnabler.test" target="11" />
+      <module name="EthanVann-Plugins.SixHourLog" target="11" />
+      <module name="EthanVann-Plugins.SixHourLog.main" target="11" />
+      <module name="EthanVann-Plugins.SixHourLog.test" target="11" />
+      <module name="EthanVann-Plugins.SpeedDartMaker" target="11" />
+      <module name="EthanVann-Plugins.SpeedDartMaker.main" target="11" />
+      <module name="EthanVann-Plugins.SpeedDartMaker.test" target="11" />
+      <module name="EthanVann-Plugins.Superglass" target="11" />
+      <module name="EthanVann-Plugins.Superglass.main" target="11" />
+      <module name="EthanVann-Plugins.Superglass.test" target="11" />
+      <module name="EthanVann-Plugins.test" target="11" />
+      <module name="EthanVann-Plugins.Upkeep" target="11" />
+      <module name="EthanVann-Plugins.Upkeep.main" target="11" />
+      <module name="EthanVann-Plugins.Upkeep.test" target="11" />
+      <module name="Piggy-Converted.DeveloperTools" target="11" />
+      <module name="Piggy-Converted.DeveloperTools.main" target="11" />
+      <module name="Piggy-Converted.DeveloperTools.test" target="11" />
+      <module name="Piggy-Converted.EthanVann-Plugins.buildSrc" target="11" />
+      <module name="Piggy-Converted.EthanVann-Plugins.buildSrc.main" target="11" />
+      <module name="Piggy-Converted.EthanVann-Plugins.buildSrc.main~1" target="11" />
+      <module name="Piggy-Converted.EthanVann-Plugins.buildSrc.test" target="11" />
+      <module name="Piggy-Converted.EthanVann-Plugins.buildSrc.test~1" target="11" />
+      <module name="Piggy-Converted.Example" target="11" />
+      <module name="Piggy-Converted.Example.main" target="11" />
+      <module name="Piggy-Converted.Example.test" target="11" />
+      <module name="Piggy-Converted.PathingTesting" target="11" />
+      <module name="Piggy-Converted.PathingTesting.main" target="11" />
+      <module name="Piggy-Converted.PathingTesting.test" target="11" />
+      <module name="Piggy-Plugins" target="11" />
+      <module name="Piggy-Plugins.AoeWarn" target="11" />
+      <module name="Piggy-Plugins.AoeWarn.main" target="11" />
+      <module name="Piggy-Plugins.AoeWarn.test" target="11" />
+      <module name="Piggy-Plugins.AutoJugHumidifier" target="11" />
+      <module name="Piggy-Plugins.AutoJugHumidifier.main" target="11" />
+      <module name="Piggy-Plugins.AutoJugHumidifier.test" target="11" />
+      <module name="Piggy-Plugins.AutoRifts" target="11" />
+      <module name="Piggy-Plugins.AutoRifts.main" target="11" />
+      <module name="Piggy-Plugins.AutoRifts.test" target="11" />
+      <module name="Piggy-Plugins.buildSrc" target="11" />
+      <module name="Piggy-Plugins.buildSrc.main" target="11" />
+      <module name="Piggy-Plugins.buildSrc.test" target="11" />
+      <module name="Piggy-Plugins.CannonReloader" target="11" />
+      <module name="Piggy-Plugins.CannonReloader.main" target="11" />
+      <module name="Piggy-Plugins.CannonReloader.test" target="11" />
+      <module name="Piggy-Plugins.DeveloperTools" target="11" />
+      <module name="Piggy-Plugins.DeveloperTools.main" target="11" />
+      <module name="Piggy-Plugins.DeveloperTools.test" target="11" />
+      <module name="Piggy-Plugins.EthanApi" target="11" />
+      <module name="Piggy-Plugins.EthanApi.main" target="11" />
+      <module name="Piggy-Plugins.EthanApi.test" target="11" />
+      <module name="Piggy-Plugins.Example" target="11" />
+      <module name="Piggy-Plugins.Example.main" target="11" />
+      <module name="Piggy-Plugins.Example.test" target="11" />
+      <module name="Piggy-Plugins.HerbCleaner" target="11" />
+      <module name="Piggy-Plugins.HerbCleaner.main" target="11" />
+      <module name="Piggy-Plugins.HerbCleaner.test" target="11" />
+      <module name="Piggy-Plugins.ItemCombiner" target="11" />
+      <module name="Piggy-Plugins.ItemCombiner.main" target="11" />
+      <module name="Piggy-Plugins.ItemCombiner.test" target="11" />
+      <module name="Piggy-Plugins.JadAutoPrayers" target="11" />
+      <module name="Piggy-Plugins.JadAutoPrayers.main" target="11" />
+      <module name="Piggy-Plugins.JadAutoPrayers.test" target="11" />
+      <module name="Piggy-Plugins.main" target="11" />
+      <module name="Piggy-Plugins.OneTickSwitcher" target="11" />
+      <module name="Piggy-Plugins.OneTickSwitcher.main" target="11" />
+      <module name="Piggy-Plugins.OneTickSwitcher.test" target="11" />
+      <module name="Piggy-Plugins.PathingTesting" target="11" />
+      <module name="Piggy-Plugins.PathingTesting.main" target="11" />
+      <module name="Piggy-Plugins.PathingTesting.test" target="11" />
+      <module name="Piggy-Plugins.PiggyUtils" target="11" />
+      <module name="Piggy-Plugins.PiggyUtils.main" target="11" />
+      <module name="Piggy-Plugins.PiggyUtils.test" target="11" />
+      <module name="Piggy-Plugins.PowerSkiller" target="11" />
+      <module name="Piggy-Plugins.PowerSkiller.main" target="11" />
+      <module name="Piggy-Plugins.PowerSkiller.test" target="11" />
+      <module name="Piggy-Plugins.PrayAgainstPlayer" target="11" />
+      <module name="Piggy-Plugins.PrayAgainstPlayer.main" target="11" />
+      <module name="Piggy-Plugins.PrayAgainstPlayer.test" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility.main" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility.src" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility.src.main" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility.src.main.main" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility.src.main.Piggy-Converted" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility.src.main.Piggy-Converted.main" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility.src.main.Piggy-Converted.test" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility.src.main.test" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility.src.test" target="11" />
+      <module name="Piggy-Plugins.RooftopAgility.test" target="11" />
+      <module name="Piggy-Plugins.SixHourLog" target="11" />
+      <module name="Piggy-Plugins.SixHourLog.main" target="11" />
+      <module name="Piggy-Plugins.SixHourLog.test" target="11" />
+      <module name="Piggy-Plugins.SpeedDartMaker" target="11" />
+      <module name="Piggy-Plugins.SpeedDartMaker.main" target="11" />
+      <module name="Piggy-Plugins.SpeedDartMaker.test" target="11" />
+      <module name="Piggy-Plugins.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

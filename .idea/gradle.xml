@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Conversions/EV-Converted" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/AutoTele" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/CalvarionHelper" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/DeveloperTools" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/E3t4g" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/EthanApi" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/Example" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/GauntletFlicker" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/Harpoon2Ticker" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/LavaRunecrafter" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/NightmareHelper" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/PathingTesting" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/PrayerFlicker" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/RunEnabler" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/Superglass" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/Upkeep" />
+            <option value="$PROJECT_DIR$/Conversions/EV-Converted/buildSrc" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Conversions/Piggy-Converted" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/AoeWarn" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/AutoJugHumidifier" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/AutoRifts" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/CannonReloader" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/EthanApi" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/HerbCleaner" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/ItemCombiner" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/JadAutoPrayers" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/OneTickSwitcher" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/PiggyUtils" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/PowerSkiller" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/PrayAgainstPlayer" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/RooftopAgility" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/RooftopAgility/src" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/RooftopAgility/src/main" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/RooftopAgility/src/main/Piggy-Converted" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/SixHourLog" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/SpeedDartMaker" />
+            <option value="$PROJECT_DIR$/Conversions/Piggy-Converted/buildSrc" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

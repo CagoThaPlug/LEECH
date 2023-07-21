@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutoTele/EV-Converted.AutoTele.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AutoTele/EV-Converted.AutoTele.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CalvarionHelper/EV-Converted.CalvarionHelper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CalvarionHelper/EV-Converted.CalvarionHelper.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DeveloperTools/EV-Converted.DeveloperTools.main.iml" filepath="$PROJECT_DIR$/.idea/modules/DeveloperTools/EV-Converted.DeveloperTools.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/E3t4g/EV-Converted.E3t4g.main.iml" filepath="$PROJECT_DIR$/.idea/modules/E3t4g/EV-Converted.E3t4g.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EthanApi/EV-Converted.EthanApi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/EthanApi/EV-Converted.EthanApi.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example/EV-Converted.Example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Example/EV-Converted.Example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GauntletFlicker/EV-Converted.GauntletFlicker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/GauntletFlicker/EV-Converted.GauntletFlicker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Harpoon2Ticker/EV-Converted.Harpoon2Ticker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Harpoon2Ticker/EV-Converted.Harpoon2Ticker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LavaRunecrafter/EV-Converted.LavaRunecrafter.main.iml" filepath="$PROJECT_DIR$/.idea/modules/LavaRunecrafter/EV-Converted.LavaRunecrafter.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NightmareHelper/EV-Converted.NightmareHelper.main.iml" filepath="$PROJECT_DIR$/.idea/modules/NightmareHelper/EV-Converted.NightmareHelper.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PathingTesting/EV-Converted.PathingTesting.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PathingTesting/EV-Converted.PathingTesting.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrayerFlicker/EV-Converted.PrayerFlicker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PrayerFlicker/EV-Converted.PrayerFlicker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RunEnabler/EV-Converted.RunEnabler.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RunEnabler/EV-Converted.RunEnabler.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Superglass/EV-Converted.Superglass.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Superglass/EV-Converted.Superglass.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Upkeep/EV-Converted.Upkeep.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Upkeep/EV-Converted.Upkeep.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AoeWarn/Piggy-Converted.AoeWarn.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AoeWarn/Piggy-Converted.AoeWarn.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutoJugHumidifier/Piggy-Converted.AutoJugHumidifier.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AutoJugHumidifier/Piggy-Converted.AutoJugHumidifier.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AutoRifts/Piggy-Converted.AutoRifts.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AutoRifts/Piggy-Converted.AutoRifts.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CannonReloader/Piggy-Converted.CannonReloader.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CannonReloader/Piggy-Converted.CannonReloader.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EthanApi/Piggy-Converted.EthanApi.main.iml" filepath="$PROJECT_DIR$/.idea/modules/EthanApi/Piggy-Converted.EthanApi.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HerbCleaner/Piggy-Converted.HerbCleaner.main.iml" filepath="$PROJECT_DIR$/.idea/modules/HerbCleaner/Piggy-Converted.HerbCleaner.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ItemCombiner/Piggy-Converted.ItemCombiner.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ItemCombiner/Piggy-Converted.ItemCombiner.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JadAutoPrayers/Piggy-Converted.JadAutoPrayers.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JadAutoPrayers/Piggy-Converted.JadAutoPrayers.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OneTickSwitcher/Piggy-Converted.OneTickSwitcher.main.iml" filepath="$PROJECT_DIR$/.idea/modules/OneTickSwitcher/Piggy-Converted.OneTickSwitcher.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PiggyUtils/Piggy-Converted.PiggyUtils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PiggyUtils/Piggy-Converted.PiggyUtils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PowerSkiller/Piggy-Converted.PowerSkiller.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PowerSkiller/Piggy-Converted.PowerSkiller.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PrayAgainstPlayer/Piggy-Converted.PrayAgainstPlayer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PrayAgainstPlayer/Piggy-Converted.PrayAgainstPlayer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/RooftopAgility/Piggy-Converted.RooftopAgility.main.iml" filepath="$PROJECT_DIR$/.idea/modules/RooftopAgility/Piggy-Converted.RooftopAgility.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SixHourLog/Piggy-Converted.SixHourLog.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SixHourLog/Piggy-Converted.SixHourLog.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpeedDartMaker/Piggy-Converted.SpeedDartMaker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpeedDartMaker/Piggy-Converted.SpeedDartMaker.main.iml" />
+    </modules>
+  </component>
+</project>
