@@ -1471,8 +1471,10 @@ For additional resources, references, and ongoing community support, check out t
 
 - Discord: .zalc (User ID: 242837834120036353)
 - Discord: cagomyre (User ID: 1072925304982614138)
+- Discord: bilbomyre (User ID: 693075521051033602)
 
 I only have these 2 discord I will never PM you from another. <br> If you get a PM from someone claiming to be me, it is not me.
+Same goes for Bilbo's discord.
 
 ---
 
