@@ -171,9 +171,9 @@ Here's an example of using different data types:
 
 ```java
 int age = 25;
-        double height = 1.75;
-        boolean isStudent = true;
-        String name = "John Doe";
+double height = 1.75;
+boolean isStudent = true;
+String name = "John Doe";
 ```
 
 #### Operators
@@ -186,13 +186,13 @@ Assignment operators: =, +=, -=, *=, /=, %= (compound assignment)
 
 ```java
 int a = 5;
-        int b = 10;
-        int sum = a + b; // sum = 15
+int b = 10;
+int sum = a + b; // sum = 15
 
-        boolean isTrue = (a > b) && (a != 0); // isTrue = false
+boolean isTrue = (a > b) && (a != 0); // isTrue = false
 
-        int counter = 0;
-        counter += 1; // counter = 1
+int counter = 0;
+counter += 1; // counter = 1        
 ```
 
 #### Conditional Statements
@@ -1274,12 +1274,16 @@ The following fields are declared at the class level:
 
 ```java
 public int timeout = 0;
+
 @Inject
 Client client;
+
 @Inject
 EthanApiPlugin api;
+
 @Inject
 SuperGlassMakerPluginConfig config;
+        
 int timesFailed = 0;
 ```
 
@@ -1471,10 +1475,8 @@ For additional resources, references, and ongoing community support, check out t
 
 - Discord: .zalc (User ID: 242837834120036353)
 - Discord: cagomyre (User ID: 1072925304982614138)
-- Discord: bilbomyre (User ID: 693075521051033602)
 
-I only have these 2 discord I will never PM you from another. <br> If you get a PM from someone claiming to be me, it is not me.
-Same goes for Bilbo's discord.
+I only have these 2 Discord's I will never PM you from another. <br> If you get a PM from someone claiming to be me, it is not me.
 
 ---
 
@@ -1492,8 +1494,7 @@ Want to give a thanks?
 <br>
     
 ![stars - LEECH](https://img.shields.io/github/stars/CagoThaPlug/LEECH?style=social)
-[![stars - LEECH](https://img.shields.io/github/stars/CagoThaPlug/LEECH?style=social)](https://github.com/CagoThaPlug/LEECH)
-[![forks - LEECH](https://img.shields.io/github/forks/CagoThaPlug/LEECH?style=social)](https://github.com/CagoThaPlug/LEECH)
+![forks - LEECH](https://img.shields.io/github/forks/CagoThaPlug/LEECH?style=social)
 
 
 <sup>[Back to Top](#table-of-contents)</sup>
