@@ -29,6 +29,7 @@ Welcome to the Comprehensive Guide to Learning Java and Writing RuneLite Plugins
   - [3.2 EthanVann Plugin API](#32-ethanvann-plugin-api)
   - [3.3 Kotori Plugin Loader](#33-kotori-plugin-loader)
   - [3.4 Game Pack Reflection](#34-game-pack-reflection)
+  - [3.5 Revision updates](#35-revision-updates)
 - [Credits](#credits)
 - [TODO](#todo)
 - [Additonal Resources](#additional-resources)
@@ -1425,14 +1426,13 @@ In progress
 >
 > -- <cite>[SkylerMiner](#SkylerMiner) 7/18/2023</cite>
 
-
-
-
 <sup>
 In Progress
 </sup>
 
-## 3.4 Revision updates
+---
+
+## 3.5 Revision updates
 This Section will cover the basic differences between the two types of revisions updates most commonly seen in the runelite plugin development market. This helps understand what is going on and possible could help you start being able to help update the revisions in the future.
 
 ### What is a Rev update?
@@ -1453,10 +1453,8 @@ The level of difficulty here is really understanding what is happening to begin 
 If the update is for an strictly invoke based client with no additional reflection updates an be done in around 10-30minutes. OpenOSRS based clients have a decent amount of classfiles that just need to be turned into proper java and ensure the mixins they have are still working properly. Packet clients usually have to ensure all parts of the packet + packetfieldnames + buffernodes + packetwrite functions are all working correctly.
 
 <sub>
-in progress</sub>
-
-
-
+in progress
+</sub>
 
 
 ---
