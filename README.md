@@ -1393,6 +1393,14 @@ After performing an operation, a timeout of 3 ticks is set to prevent immediate 
 timeout = 3;
 ```
 
+This timeout is afterwards used somewhere in the beginning of onGameTick like this:
+
+```java
+if (timeout > 0){
+  timeout--;
+  return;
+}
+```
 <sup> 
 
 In progress
