@@ -1425,11 +1425,39 @@ In progress
 >
 > -- <cite>[SkylerMiner](#SkylerMiner) 7/18/2023</cite>
 
+
+
+
 <sup>
-
 In Progress
-
 </sup>
+
+## 3.4 Revision updates
+This Section will cover the basic differences between the two types of revisions updates most commonly seen in the runelite plugin development market. This helps understand what is going on and possible could help you start being able to help update the revisions in the future.
+
+### What is a Rev update?
+A rev update stands for a "Revision update". When this happens either Runelite has pushed a mixin update changing their obfuscation. Or Jagex has updated the base gamepack which changes almost every obfuscated method name we are trying to acces.
+
+### Sub-Rev Updates
+Sub-rev updates are what happens when runelite pushes an update. This is when they update their mixins. This is a term that is a "In-between" layer of the injection process that lets runelite inject specific bytcode into the original gamepack. This lets them add hooks into the gamepack as well as realsy grabbing methods and fields making them into a more useful method call. This means any of their specific methods you need to reflect will need to change. Such as, iff you can see that runelite has recently update you can be sure to have some issues with plugin development if your repo relies on any reflected runelite API methods. Such methods include things such as getAnimation() on the actor class, and getPath() of Npcs/Players. These rely on the base RuneLite mixins so you'll have to grab the newest obfuscated names when this type of update occurs
+
+In Ethan API based repos one of the reflected methods is integral to the creation of packets usually causing any of these repos to break where as some other repos that only use invokes my be unnafected on a sub-rev update day
+
+
+
+### Gamepack Rev Update
+Gamepack updates are where java re-obfuscates all of their client code when releasing a new version. These usually occur anywhere from 1month->3months between each major revision. When this happens we have to de-obfuscated the gamepack and map it with a previous mapping of the last gamepack. This spits us out mapped files that are more human readable and lets us both easily grab methods/fields we want but this output is either directly used in the updating any OPRS repos such as Storm, Squire, and Devious. Whereas other repos use a combination of this output and other inputs to map the classname/fields/methods they need. 
+
+The level of difficulty here is really understanding what is happening to begin with and people who don't understand how the gamepack is reflected into to change client methods might have difficulty attempting this. As well difficulty is dependant on what type of client the rev update is for. 
+
+If the update is for an strictly invoke based client with no additional reflection updates an be done in around 10-30minutes. OpenOSRS based clients have a decent amount of classfiles that just need to be turned into proper java and ensure the mixins they have are still working properly. Packet clients usually have to ensure all parts of the packet + packetfieldnames + buffernodes + packetwrite functions are all working correctly.
+
+<sub>
+in progress</sub>
+
+
+
+
 
 ---
 
