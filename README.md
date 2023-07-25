@@ -6,6 +6,13 @@
 
 
 Welcome to the Comprehensive Guide to Learning Java and Writing RuneLite Plugins! This guide is designed to provide you with a solid foundation in Java programming and help you get started with developing plugins for the RuneLite client. Whether you're a beginner or have some programming experience, this guide will walk you through the essentials and provide you with examples and resources to enhance your learning.
+<br></br>
+
+<a href="https://discord.gg/ehvSsj24cn">
+  <img src="https://cdn.discordapp.com/icons/1096562449009872939/5aaf8eb1a5562cbc8eabee2967887a89.webp?size=100" alt="Discord Logo" width="12%" height="12%">
+</a>
+
+[Join The Myre discord server](https://discord.gg/ehvSsj24cn)
 
 ## Table of Contents
 
